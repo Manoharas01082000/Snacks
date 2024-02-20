@@ -1,0 +1,209 @@
+/* styles.css */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f0e2; /* Cream background */
+}
+
+/* Header styles */
+header {
+  background-color: #253545; /* Dark blue background for header */
+  color: #f7f7f7;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 150px 0; /* Increased padding top and bottom */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff; /* Text color */
+  background-image: url('images.jfif'); /* Background image */
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #ffffff; /* Text color */
+}
+
+/* About section styles */
+.about-container {
+  text-align: center;
+  padding: 70px 0; /* Increased padding top and bottom */
+  background-color: #fef5e4; /* Light yellow background for about section */
+}
+
+/* Menu section styles */
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 70px 0; /* Increased padding top and bottom */
+  background-color: #e0e0e0; /* Light gray background for menu section */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.menu-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Contact section styles */
+.contact-container {
+  text-align: center;
+  padding: 70px 0; /* Increased padding top and bottom */
+  background-color: #f5f5dc; /* Beige background for contact section */
+}
+
+/* Footer styles */
+footer {
+  background-color: #253545; /* Dark blue background for footer */
+  color: #f7f7f7;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* styles.css */
+
+/* Card Styles */
+/* styles.css */
+
+/* Card Styles */
+.card {
+  background-color: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 20px; /* Padding inside the card */
+  margin: 20px; /* Spacing between cards */
+  width: 40%; /* Set width to 40% of the container */
+  height: 30%; /* Set height to 30% of the container */
+}
+
+.card img {
+  width: 100%; /* Make images fill the card width */
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+.card h3 {
+  margin-top: 10px; /* Margin above the heading */
+}
+
+.card p {
+  color: #555; /* Text color */
+}
+
+
+  
+  /* Other Styles (Hero, About, Menu, Contact) */
+  /* Add your other styles here */
+  /* styles.css */
+
+/* Header Styles */
+header {
+    background-color: #253545; /* Dark blue background for header */
+    color: #f7f7f7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #253545; /* Dark blue background for footer */
+    color: #f7f7f7;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Cart Styles */
+  .cart-container {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #cart-items {
+    margin-bottom: 20px;
+  }
+  
+  #checkout-btn {
+    margin-top: 20px;
+  }
+  
+  /* Orders Styles */
+  .orders-container {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #order-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #order-list li {
+    margin-bottom: 10px;
+  }
+  
